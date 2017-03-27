@@ -67,8 +67,8 @@ In addition to the webpack entry file, there will be six scripts involved in thi
 
 **Day 1**: Setup all necessary logic for blackjack.  Goals for the day:
 
-- Set up structure of project(webpack, html)
-- Have the game, deck, hand, and card classes working
+  - Set up structure of project(webpack, html)
+  - Have the game, deck, hand, and card classes working
 
 **Day 2**: Learn how the canvas is going to work and render the appropriate cards. Goals of the day:
 
@@ -85,3 +85,10 @@ In addition to the webpack entry file, there will be six scripts involved in thi
 
   - Add the advice functionality
   - Have a styled `Canvas`
+
+### Bonus features
+
+Future updates to Smart Blackjack include:
+
+  - Add probability and expected outcome when the user asks for help
+  - Frontend can show visually the simulations being run
