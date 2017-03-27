@@ -84,6 +84,7 @@ In addition to the webpack entry file, there will be six scripts involved in thi
 **Day 4**: Add the functionality for the user to be able to ask for advice on his/her move. Style the frontend, making it polished and professional.  Goals for the day:
 
   - Add the advice functionality
+  - Add rules of the game modal
   - Have a styled `Canvas`
 
 ### Bonus features
