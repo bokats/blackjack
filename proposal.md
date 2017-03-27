@@ -37,7 +37,7 @@ In addition, this project will include:
 ### Wireframes
 
 The app will consist of a game board holding all the visuals including dealer,
-and current hands. All the buttons for the game will be outside of the canvas.
+and current hands. All the buttons for the game will be outside of the game board
 
 There will be a Rules of the game modal link higher in the page as well as
 reset and start buttons under the game board.
@@ -52,12 +52,11 @@ option, which will tell the user the best statistical move.
 This project will be implemented with the following technologies:
 
 1) Vanilla JavaScript and jQuery for overall structure and game logic
-2) HTML5 Canvas to hold the visuals of the game
 2) Webpack to bundle and serve up the various scripts
 
 In addition to the webpack entry file, there will be six scripts involved in this project:
 
-1) board.js: Holds the infomation needed to be rendered in the canvas and renders it in the canvas
+1) board.js: Holds the information needed to be rendered in the html
 2) game.js: Holds the game state and general game logic
 3) deck.js, hand.js, and card.js: Hold the respective classes needed in the game
 4) moves.js: This will hold all the information needed for the game to know what is the best move
@@ -70,13 +69,13 @@ In addition to the webpack entry file, there will be six scripts involved in thi
   - Set up structure of project(webpack, html)
   - Have the game, deck, hand, and card classes working
 
-**Day 2**: Learn how the canvas is going to work and render the appropriate cards. Goals of the day:
+**Day 2**: Learn how to render the information in html without using React. Goals of the day:
 
-  - Set up 'board.js' file to render the appropriate information to canvas
+  - Set up 'board.js' file to render the appropriate information to the html
   - Set up buttons for the game
   - There should be a functional game with minimal styling
 
-**Day 3**: Style the canvas and buttons. Game should look good and be fully functional. Goals of the day:
+**Day 3**: Style the game board and buttons. Game should look good and be fully functional. Goals of the day:
 
   - Game should be fully functional and should look great
   - Add the "moves.js" file, statistician button and link it to the game
@@ -85,7 +84,7 @@ In addition to the webpack entry file, there will be six scripts involved in thi
 
   - Add the advice functionality
   - Add rules of the game modal
-  - Have a styled `Canvas`
+  - Have a styled page
 
 ### Bonus features
 
