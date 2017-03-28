@@ -73,6 +73,10 @@ button {
   background-size: contain;
 }
 
+.dealer-cards, .player-cards {
+  display: flex;
+}
+
 #clubs-2 {
   background-image: url("../images/2_of_clubs.png");
 }
