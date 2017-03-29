@@ -284,3 +284,8 @@ button {
 #spades-A {
   background-image: url("../images/ace_of_spades.png");
 }
+
+#card-back {
+  background-image: url("../images/card-back.jpg");
+  width: 122px;
+}
