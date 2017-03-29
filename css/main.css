@@ -18,14 +18,14 @@ h1, p {
 
 .game-container {
   display: flex;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 5%;
 
 }
 
 .board {
   display: flex;
-  height: 500px;
+  height: 600px;
   width: 800px;
   border: 1px solid black;
   background-color: #00BFFF;
@@ -71,13 +71,13 @@ h1, p {
 }
 
 .dealer-cards, .player-cards {
-  height: 200px;
+  height: 250px;
   width: 100%;
   border: 1px solid blue;
 }
 
 .card {
-  height: 100%;
+  height: 150px;
   width: 120px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -85,12 +85,43 @@ h1, p {
 
 .dealer-cards, .player-cards {
   display: flex;
+  align-items: flex-end;
+}
+
+.dealer-cards, .player-hand1-cards, .player-hand2-cards {
+  display: flex;
+  justify-content: center;
 }
 
 .player-chips {
   align-self: flex-start;
 
   margin-top: 0;
+  font-size: 30px;
+}
+
+
+
+.dealer-hand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.player-hand1, .player-hand2 {
+  height: 100%;
+  width: 100%;
+}
+
+.player-hand1-cards, .player-hand2-cards, .dealer-cards {
+  height: 150px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.dealer-score, .player-hand1-score, .player-hand2-score {
+  text-align: center;
   font-size: 30px;
 }
 
