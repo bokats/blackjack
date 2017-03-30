@@ -32,20 +32,19 @@ h1 {
 
 }
 
-.board, .initial-board {
+.board {
   display: flex;
   height: 600px;
   width: 900px;
-  border: 1px solid black;
-  background-color: #00BFFF;
+  background: rgba(54, 25, 25, .5);
   /*align-items: flex-end;*/
   justify-content: flex-end;
   flex-direction: column;
   color: white;
 }
 
-.initial-board {
-
+.board p {
+  opacity: 1;
 }
 
 .buttons-container {
@@ -93,11 +92,17 @@ h1 {
   margin: 0 auto;
 }
 
-
+.dealer-cards-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  width: 100%;
+}
 
 .dealer-cards, .player-cards {
   height: 250px;
   width: 100%;
+  /*border: 1px solid black;*/
 }
 
 .card {
@@ -138,6 +143,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
+
 }
 
 .player-hand1, .player-hand2 {
@@ -145,7 +151,7 @@ h1 {
   width: 100%;
 }
 
-.player-hand1-cards, .player-hand2-cards, .dealer-cards {
+.player-hand1-cards, .player-hand2-cards {
   height: 150px;
   width: 100%;
 }
@@ -157,7 +163,7 @@ h1 {
 }
 
 .player-hand1-score, .player-hand2-score {
-  margin-left: 48%;
+  text-align: center;
   font-size: 30px;
   width: 100%;
 }
