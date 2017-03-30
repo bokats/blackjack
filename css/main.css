@@ -6,6 +6,11 @@ body, div, h1, p, input {
 }
 
 body {
+  background: url("../images/bjack_background.jpg") center center;
+  background-size: cover;
+}
+
+body {
   display: flex;
   height: 100%;
   width: 100%;
@@ -14,6 +19,10 @@ body {
 
 h1, p {
   align-self: center;
+}
+
+h1 {
+  color: white;
 }
 
 .game-container {
