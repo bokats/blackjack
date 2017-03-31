@@ -1,11 +1,15 @@
 # Blackjack
 
-[Blackjack live][https://bokats.github.io/smart_blackjack/]
+[Blackjack live](https://bokats.github.io/smart_blackjack/)
 
-Blackjack is a version of the the popular game played in casinos all over the world. It utilizes
-JavaScript for the game logic and jQuery to manipulate the front end.
+Blackjack is a version of the the popular game played in casinos all over the world. This version of the game includes one maximum split, dealer has to hit soft 17, and is played with 6 decks of cards.
 
-This version of the game includes one maximum split, dealer has to hit soft 17, and is played with 6 decks of cards.
+This version of the game is built using:
+
+- JavaScript
+- jQuery
+- HTML5
+- CSS
 
 ## Features & Implementation
 
