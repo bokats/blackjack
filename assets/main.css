@@ -36,8 +36,12 @@ li {
   margin-left: 5%;
 }
 
-h1 {
+#title {
   color: white;
+  font-size: 50px;
+  text-align: center;
+  z-index: 2;
+  font-weight: bold;
 }
 
 .game-container {
