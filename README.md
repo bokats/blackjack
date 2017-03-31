@@ -16,12 +16,14 @@ The game includes all of the key features of classic Blackjack: hit, stand, spli
 
 The views include dynamic functionality by only showing the buttons that are allowed for the specific set of cards. For example, if the ranks of the user cards don't match, the split button is not rendered on the screen. This is done in order to avoid actions that are disallowed and better user experience.
 
+![alt tag](./images/split.png)
+![alt tag](./images/no_split.png)
+
 ### Split
 
 In addition, when a split takes place, the user gets two sets of hands, which are independently playing against the dealer. To achieve the logic of switching back and forth, the Game class has an attribute "playerHands", which an array of all the player Hands. Then each action includes logic to switch actions in the correct conditions.
 
-![alt tag](./images/split.png)
-![alt tag](./images/no_split.png)
+![alt tag](./images/split_show.png)
 
 Once the cards are split, I used jQuery to change the selected card and lower the opacity of the non-active hand in order to show the user which card is being played.
 
