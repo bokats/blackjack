@@ -17,8 +17,16 @@ body {
   flex-direction: column;
 }
 
-h1, p {
+h1, #rules-button {
   align-self: center;
+}
+
+.game-rules {
+  color: white;
+}
+
+li {
+  margin-left: 5%;
 }
 
 h1 {
@@ -63,7 +71,7 @@ h1 {
 }
 
 .surrender-button, .split-button, .double-button, .stand-button,
-  .hit-button, .deal-button, .reset-button {
+  .hit-button, .deal-button, .reset-button, #rules-button {
   height: 40px;
   width: 100px;
   border-radius: 10px;
