@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="./lib/bundle.js"></script>
     <meta charset="utf-8">
-    <title>Smart Blackjack</title>
+    <title>Blackjack</title>
   </head>
   <body>
-    <h1>Smart Blackjack</h1>
+    <h1>Blackjack</h1>
 
     <div class="game-container">
       <div class="main-game">
         <div class="board">
           <div class="game-info">
-            <div class="player-chips"></div>
+            <div class="player-chips-container">
+              <div class="player-chips">
+              </div>
+              <div class="hand-chips">
+              </div>
+            </div>
+
             <p class="start-message">Click Deal to Start</p>
             <p class="in-game-message"></p>
           </div>
