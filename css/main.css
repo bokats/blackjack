@@ -23,6 +23,13 @@ h1, #rules-button {
 
 .game-rules {
   color: white;
+  margin-left: 3%;
+}
+
+.rules-title {
+  text-align: center;
+  font-weight: bold;
+
 }
 
 li {
