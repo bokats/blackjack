@@ -42,6 +42,6 @@ Add an advisor who can tell the player the best move out of the possibilities
 
 Allow for probability and expected outcome calculation with visuals
 
-### More splits && Insurance
+### More splits & Insurance
 
 Add up to 3 possible splits and insurance
