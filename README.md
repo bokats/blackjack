@@ -1,7 +1,6 @@
 # Blackjack
 
-[Blackjack live][github]
-[github] https://bokats.github.io/smart_blackjack/
+[Blackjack live][https://bokats.github.io/smart_blackjack/]
 
 Blackjack is a version of the the popular game played in casinos all over the world. It utilizes
 JavaScript for the game logic and jQuery to manipulate the front end.
