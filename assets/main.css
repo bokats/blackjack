@@ -21,6 +21,27 @@ h1, #rules-button {
   align-self: center;
 }
 
+.header-container {
+  display: flex;
+  align-self: center;
+}
+
+#modal-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  z-index: 2;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+#modal-button:hover {
+
+}
+
 .game-rules {
   color: white;
   margin-left: 3%;
@@ -82,7 +103,7 @@ li {
 }
 
 .surrender-button, .split-button, .double-button, .stand-button,
-  .hit-button, .deal-button, .reset-button, #rules-button {
+  .hit-button, .deal-button, .reset-button, #rules-button{
   height: 40px;
   width: 100px;
   border-radius: 10px;
