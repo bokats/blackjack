@@ -6,7 +6,10 @@ body, div, h1, p, input {
 }
 
 body {
-  background: url("../images/bjack_background.jpg") center center;
+  background: url("../images/bjack_background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -39,7 +42,8 @@ h1, #rules-button {
 }
 
 #modal-button:hover {
-
+  background-color: grey;
+  color: white;
 }
 
 .game-rules {
@@ -67,8 +71,8 @@ li {
 
 .game-container {
   display: flex;
-  margin-top: 5%;
-  margin-left: 5%;
+  margin-top: 2%;
+  justify-content: center;
 
 }
 
