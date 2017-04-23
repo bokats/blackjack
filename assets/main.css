@@ -27,6 +27,7 @@ h1, #rules-button {
 .header-container {
   display: flex;
   align-self: center;
+  align-items: center;
 }
 
 #modal-button {
@@ -37,7 +38,6 @@ h1, #rules-button {
   border: 1px solid white;
   font-size: 15px;
   z-index: 2;
-  margin-top: 15px;
   margin-left: 50px;
 }
 
@@ -64,7 +64,7 @@ li {
 
 #title {
   color: white;
-  font-size: 45px;
+  font-size: 60px;
   text-align: center;
   z-index: 2;
   margin: 0;
@@ -81,11 +81,10 @@ li {
   display: flex;
   height: 600px;
   width: 900px;
-  background: rgba(169, 169, 169, .3);
+  background: rgba(169, 169, 169, .7);
   /*align-items: flex-end;*/
   justify-content: flex-end;
   flex-direction: column;
-  color: white;
   -webkit-box-shadow: 0px 0px 300px 49px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 300px 49px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 300px 49px rgba(0,0,0,0.75);
