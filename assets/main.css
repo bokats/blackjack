@@ -1,7 +1,7 @@
 body, div, h1, p, input {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Fredoka One', cursive;
   border: none;
 }
 
@@ -42,7 +42,8 @@ h1, #rules-button {
 }
 
 #modal-button:hover {
-  background-color: grey;
+  background-color: #778899;
+  border-color: #778899;
   color: white;
 }
 
@@ -63,10 +64,10 @@ li {
 
 #title {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   z-index: 2;
-  font-weight: bold;
+  margin: 0;
 }
 
 .game-container {
