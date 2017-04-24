@@ -1,6 +1,6 @@
 # Blackjack
 
-[Blackjack live](https://bokats.github.io/smart_blackjack/)
+[Blackjack live](https://bokats.github.io/blackjack/)
 
 Blackjack is a version of the the popular game played in casinos all over the world. This version of the game includes one maximum split, dealer has to hit soft 17, and is played with 6 decks of cards.
 
